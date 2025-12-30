@@ -13,6 +13,7 @@ export interface JWTPayload {
   userId: string;
   username: string;
   role: 'user' | 'admin';
+  [key: string]: unknown;
 }
 
 export async function createToken(payload: JWTPayload): Promise<string> {
