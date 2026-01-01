@@ -164,7 +164,7 @@ export default function ProfilPage() {
                 <div className="bg-gradient-to-br from-[#1D2A62] to-[#15224d] text-white p-6 rounded-xl shadow-lg">
                   <div className="flex items-center gap-4">
                     <div className="w-20 h-20 rounded-full overflow-hidden bg-white flex-shrink-0">
-                      <img src="/images/aparatur/tantantaofik.jpeg" alt="Tantan Taofik Sutanto" className="w-full h-full object-cover" />
+                      <img src="/images/aparatur/tantantaofik.png" alt="Tantan Taofik Sutanto" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Kepala Desa</h4>
