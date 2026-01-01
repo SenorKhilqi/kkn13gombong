@@ -83,7 +83,7 @@ export default function NewsTable({ news }: NewsTableProps) {
                   </Link>
                   <Link
                     href={`/dashboard/admin/news/edit/${item.id}`}
-                    className="px-3 py-1.5 text-sm text-green-600 hover:bg-green-50 rounded-lg transition-colors"
+                    className="px-3 py-1.5 text-sm text-[#437118] hover:bg-[#437118]/10 rounded-lg transition-colors"
                   >
                     Edit
                   </Link>

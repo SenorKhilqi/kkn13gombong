@@ -75,9 +75,9 @@ export default async function AdminDashboardPage() {
                 <p className="text-sm text-gray-600 mb-1">Total Pengguna</p>
                 <p className="text-3xl font-bold text-gray-900">{totalUsers || 0}</p>
               </div>
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#437118]/20 rounded-lg flex items-center justify-center">
                 <svg
-                  className="w-6 h-6 text-green-600"
+                  className="w-6 h-6 text-[#437118]"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -97,7 +97,7 @@ export default async function AdminDashboardPage() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-gray-600 mb-1">Status</p>
-                <p className="text-lg font-semibold text-green-600">Aktif</p>
+                <p className="text-lg font-semibold text-[#437118]">Aktif</p>
               </div>
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
                 <svg
@@ -126,7 +126,7 @@ export default async function AdminDashboardPage() {
             </h2>
             <Link
               href="/dashboard/admin/news/create"
-              className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+              className="px-4 py-2 bg-[#437118] text-white rounded-lg hover:bg-[#375e14] transition-colors font-medium"
             >
               + Tambah Berita
             </Link>

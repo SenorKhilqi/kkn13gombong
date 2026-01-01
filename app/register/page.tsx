@@ -44,12 +44,12 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gradient-to-br from-green-50 to-blue-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gradient-to-br from-[#437118]/10 to-blue-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full">
         <div className="bg-white rounded-2xl shadow-xl p-8">
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-500 rounded-xl mx-auto mb-4"></div>
+            <div className="w-16 h-16 bg-gradient-to-br from-[#437118] to-blue-500 rounded-xl mx-auto mb-4"></div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
               Daftar Akun
             </h2>
@@ -80,7 +80,7 @@ export default function RegisterPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, username: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                 placeholder="Minimal 3 karakter"
               />
             </div>
@@ -100,7 +100,7 @@ export default function RegisterPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, password: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                 placeholder="Minimal 6 karakter"
               />
             </div>
@@ -120,7 +120,7 @@ export default function RegisterPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, confirmPassword: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                 placeholder="Masukkan password lagi"
               />
             </div>
@@ -128,7 +128,7 @@ export default function RegisterPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
+              className="w-full px-6 py-3 bg-[#437118] text-white font-medium rounded-lg hover:bg-[#375e14] transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
             >
               {loading ? 'Loading...' : 'Daftar'}
             </button>
@@ -140,7 +140,7 @@ export default function RegisterPage() {
               Sudah punya akun?{' '}
               <Link
                 href="/login"
-                className="font-medium text-green-600 hover:text-green-700"
+                className="font-medium text-[#437118] hover:text-[#375e14]"
               >
                 Login di sini
               </Link>

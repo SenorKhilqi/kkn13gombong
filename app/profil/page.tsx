@@ -6,15 +6,15 @@ export default function ProfilPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Profil Desa Gombong</h1>
           <p className="text-lg text-gray-600 mb-4">Kecamatan Ciawi, Kabupaten Tasikmalaya</p>
-          <div className="w-20 h-1 bg-green-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-[#1D2A62] mx-auto"></div>
         </div>
 
         {/* Content */}
         <div className="space-y-10">
           {/* Sekapur Sirih */}
-          <section className="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-xl border border-green-100">
+          <section className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-xl border border-[#1D2A62]/20">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <span className="text-green-600">📜</span> Sekapur Sirih
+              <span className="text-[#1D2A62]">📜</span> Sekapur Sirih
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Desa Gombong merupakan potret desa agraris yang terletak di jantung Kecamatan Ciawi. Dengan luas wilayah mencapai <strong>597,14 Ha</strong>, desa ini berdiri sebagai wilayah yang strategis namun tetap mempertahankan keasrian alamnya.
@@ -27,7 +27,7 @@ export default function ProfilPage() {
           {/* Geografis & Administrasi */}
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-              <span className="text-green-600">🗺️</span> Geografis & Administrasi
+              <span className="text-[#1D2A62]">🗺️</span> Geografis & Administrasi
             </h2>
             
             {/* Batas Wilayah */}
@@ -55,8 +55,8 @@ export default function ProfilPage() {
 
             {/* Pembagian Wilayah */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-green-50 p-6 rounded-xl text-center border border-green-200">
-                <div className="text-4xl font-bold text-green-600 mb-2">6</div>
+              <div className="bg-[#437118]/10 p-6 rounded-xl text-center border border-[#437118]/30">
+                <div className="text-4xl font-bold text-[#437118] mb-2">6</div>
                 <p className="text-gray-700 font-medium">Dusun</p>
               </div>
               <div className="bg-blue-50 p-6 rounded-xl text-center border border-blue-200">
@@ -73,7 +73,7 @@ export default function ProfilPage() {
           {/* Kependudukan & Sosial */}
           <section className="bg-gray-50 p-8 rounded-xl">
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-              <span className="text-green-600">👥</span> Kependudukan & Sosial
+              <span className="text-[#1D2A62]">👥</span> Kependudukan & Sosial
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
@@ -92,9 +92,9 @@ export default function ProfilPage() {
                 <p className="text-3xl font-bold text-pink-600">2.491</p>
                 <p className="text-sm text-gray-500">jiwa</p>
               </div>
-              <div className="bg-white p-6 rounded-xl border-2 border-green-200 text-center">
+              <div className="bg-white p-6 rounded-xl border-2 border-[#437118]/30 text-center">
                 <p className="text-gray-600 mb-1">Kepala Keluarga</p>
-                <p className="text-3xl font-bold text-green-600">1.770</p>
+                <p className="text-3xl font-bold text-[#437118]">1.770</p>
                 <p className="text-sm text-gray-500">KK</p>
               </div>
             </div>
@@ -142,9 +142,9 @@ export default function ProfilPage() {
           </section>
 
           {/* Sumber Daya Ekonomi */}
-          <section className="bg-green-50 p-8 rounded-xl border border-green-200">
+          <section className="bg-[#437118]/10 p-8 rounded-xl border border-[#437118]/30">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <span className="text-green-600">🌾</span> Sumber Daya Ekonomi
+              <span className="text-[#437118]">🌾</span> Sumber Daya Ekonomi
             </h2>
             <p className="text-gray-700 leading-relaxed">
               Mayoritas masyarakat kami menggantungkan hidup pada sektor <strong>pertanian dan buruh tani</strong>. Oleh karena itu, arah kebijakan pembangunan Desa Gombong selalu menitikberatkan pada peningkatan sarana prasarana pertanian serta konektivitas jalan untuk memperlancar arus ekonomi warga.
@@ -154,17 +154,17 @@ export default function ProfilPage() {
           {/* Struktur Organisasi */}
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-              <span className="text-green-600">👔</span> Struktur Pemerintahan Desa
+              <span className="text-[#1D2A62]">👔</span> Struktur Pemerintahan Desa
             </h2>
 
             {/* Pimpinan Desa */}
             <div className="mb-8">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Pimpinan Desa</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-gradient-to-br from-green-500 to-green-600 text-white p-6 rounded-xl shadow-lg">
+                <div className="bg-gradient-to-br from-[#1D2A62] to-[#15224d] text-white p-6 rounded-xl shadow-lg">
                   <div className="flex items-center gap-4">
-                    <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center text-4xl">
-                      👨‍💼
+                    <div className="w-20 h-20 rounded-full overflow-hidden bg-white flex-shrink-0">
+                      <img src="/images/aparatur/tantantaofik.jpeg" alt="Tantan Taofik Sutanto" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Kepala Desa</h4>
@@ -174,10 +174,10 @@ export default function ProfilPage() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-6 rounded-xl shadow-lg">
+                <div className="bg-gradient-to-br from-[#437118] to-[#375e14] text-white p-6 rounded-xl shadow-lg">
                   <div className="flex items-center gap-4">
-                    <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center text-4xl">
-                      👩‍💼
+                    <div className="w-20 h-20 rounded-full overflow-hidden bg-white flex-shrink-0">
+                      <img src="/images/aparatur/euissumyati.png" alt="Euis Sumyati" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Sekretaris Desa</h4>
@@ -194,10 +194,10 @@ export default function ProfilPage() {
             <div className="mb-8">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Staf Kepala Seksi & Kepala Urusan</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-green-500 transition-colors">
+                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-[#1D2A62] transition-colors">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-500 rounded-full mx-auto mb-3 flex items-center justify-center text-2xl text-white">
-                      📋
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/yantiharyati.png" alt="Yanti Haryati" className="w-full h-full object-cover" />
                     </div>
                     <h4 className="font-semibold text-gray-900">Kasi Pemerintahan</h4>
                     <p className="text-gray-600 text-sm">Yanti Haryati</p>
@@ -205,8 +205,8 @@ export default function ProfilPage() {
                 </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-blue-500 transition-colors">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full mx-auto mb-3 flex items-center justify-center text-2xl text-white">
-                      🤝
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/antonpatoni.png" alt="Anton Patoni" className="w-full h-full object-cover" />
                     </div>
                     <h4 className="font-semibold text-gray-900">Kasi Pelayanan</h4>
                     <p className="text-gray-600 text-sm">Anton Patoni</p>
@@ -214,8 +214,8 @@ export default function ProfilPage() {
                 </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-purple-500 transition-colors">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-500 rounded-full mx-auto mb-3 flex items-center justify-center text-2xl text-white">
-                      ❤️
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/nanicuarni.png" alt="Nani Cuarni" className="w-full h-full object-cover" />
                     </div>
                     <h4 className="font-semibold text-gray-900">Kasi Kesejahteraan</h4>
                     <p className="text-gray-600 text-sm">Nani Cuarni</p>
@@ -223,17 +223,17 @@ export default function ProfilPage() {
                 </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-yellow-500 transition-colors">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full mx-auto mb-3 flex items-center justify-center text-2xl text-white">
-                      💰
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/yayamuhidin.png" alt="Yaya Muhidin" className="w-full h-full object-cover" />
                     </div>
                     <h4 className="font-semibold text-gray-900">Kaur Keuangan</h4>
                     <p className="text-gray-600 text-sm">Yaya Muhidin, S. Kom</p>
                   </div>
                 </div>
-                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-green-500 transition-colors">
+                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-[#1D2A62] transition-colors">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-500 rounded-full mx-auto mb-3 flex items-center justify-center text-2xl text-white">
-                      💵
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/cindriania.png" alt="Cindri Ania" className="w-full h-full object-cover" />
                     </div>
                     <h4 className="font-semibold text-gray-900">Staff Desa</h4>
                     <p className="text-gray-600 text-sm">Cindri Ania</p>
@@ -241,8 +241,8 @@ export default function ProfilPage() {
                 </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-blue-500 transition-colors">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full mx-auto mb-3 flex items-center justify-center text-2xl text-white">
-                      📄
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/rudiansyahapanditanjung.png" alt="Rudiansyah Apandi Tanjung" className="w-full h-full object-cover" />
                     </div>
                     <h4 className="font-semibold text-gray-900">Kaur Umum</h4>
                     <p className="text-gray-600 text-sm">Rudiansyah Apandi Tanjung</p>
@@ -250,8 +250,8 @@ export default function ProfilPage() {
                 </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-purple-500 transition-colors">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-500 rounded-full mx-auto mb-3 flex items-center justify-center text-2xl text-white">
-                      📊
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/nandanriadi.png" alt="Nandan Riadi" className="w-full h-full object-cover" />
                     </div>
                     <h4 className="font-semibold text-gray-900">Kaur Perencanaan</h4>
                     <p className="text-gray-600 text-sm">Nandan Riadi</p>
@@ -264,78 +264,78 @@ export default function ProfilPage() {
             <div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Kepala Kewilayahan (Kepala Dusun)</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg transition-shadow">
+                <a href="/dusun/gombong" className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg hover:border-[#437118] transition-all cursor-pointer">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl">
-                      🏘️
+                    <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+                      <img src="/images/aparatur/dodynurwadi.png" alt="Dody Nurwadi" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Dusun Gombong</h4>
                       <p className="text-gray-600 text-sm">Dody Nurwadi</p>
                     </div>
                   </div>
-                </div>
-                <div className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg transition-shadow">
+                </a>
+                <a href="/dusun/sukamandi" className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg hover:border-[#437118] transition-all cursor-pointer">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl">
-                      🏘️
+                    <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+                      <img src="/images/aparatur/titasholihatulmunirohhilmi.png" alt="Tita Sholihatul Muniroh Hilmi" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Dusun Sukamandi</h4>
                       <p className="text-gray-600 text-sm">Tita Sholihatul Muniroh Hilmi, S.E</p>
                     </div>
                   </div>
-                </div>
-                <div className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg transition-shadow">
+                </a>
+                <a href="/dusun/bugel" className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg hover:border-[#437118] transition-all cursor-pointer">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl">
-                      🏘️
+                    <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+                      <img src="/images/aparatur/ruhimat.png" alt="Ruhimat" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Dusun Bugel</h4>
                       <p className="text-gray-600 text-sm">Ruhimat</p>
                     </div>
                   </div>
-                </div>
-                <div className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg transition-shadow">
+                </a>
+                <a href="/dusun/karamasantana" className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg hover:border-[#437118] transition-all cursor-pointer">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl">
-                      🏘️
+                    <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+                      <img src="/images/aparatur/enjanghadihidayah.png" alt="Enjang Hadi Hidayah" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Dusun Karamasantana</h4>
                       <p className="text-gray-600 text-sm">Enjang Hadi Hidayah</p>
                     </div>
                   </div>
-                </div>
-                <div className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg transition-shadow">
+                </a>
+                <a href="/dusun/pocol" className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg hover:border-[#437118] transition-all cursor-pointer">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl">
-                      🏘️
+                    <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+                      <img src="/images/aparatur/mastutinuraeni.png" alt="Mastuti Nuraeni" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Dusun Pocol</h4>
                       <p className="text-gray-600 text-sm">Mastuti Nuraeni</p>
                     </div>
                   </div>
-                </div>
-                <div className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg transition-shadow">
+                </a>
+                <a href="/dusun/pananyung" className="bg-white border-2 border-gray-200 p-5 rounded-xl hover:shadow-lg hover:border-[#437118] transition-all cursor-pointer">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl">
-                      🏘️
+                    <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+                      <img src="/images/aparatur/amatbongsor.png" alt="Amat Bongsor" className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Dusun Pananyung</h4>
                       <p className="text-gray-600 text-sm">Amat Bongsor</p>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </section>
 
           {/* Data Ringkas */}
-          <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-xl">
+          <section className="bg-gradient-to-r from-[#1D2A62] to-[#437118] text-white p-8 rounded-xl">
             <h2 className="text-2xl font-semibold mb-6 text-center">Data Ringkas Desa Gombong</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">

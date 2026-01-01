@@ -21,7 +21,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="text-sm text-gray-400 hover:text-green-400 transition-colors"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
                 >
                   Beranda
                 </Link>
@@ -29,7 +29,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/profil"
-                  className="text-sm text-gray-400 hover:text-green-400 transition-colors"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
                 >
                   Profil Desa
                 </Link>
@@ -37,7 +37,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/news"
-                  className="text-sm text-gray-400 hover:text-green-400 transition-colors"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
                 >
                   Berita
                 </Link>
@@ -45,7 +45,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/kontak"
-                  className="text-sm text-gray-400 hover:text-green-400 transition-colors"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
                 >
                   Kontak
                 </Link>

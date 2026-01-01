@@ -79,7 +79,7 @@ export default function CreateNewsPage() {
         <div className="mb-8">
           <Link
             href="/dashboard/admin"
-            className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 mb-4 group"
+            className="inline-flex items-center gap-2 text-[#437118] hover:text-[#375e14] mb-4 group"
           >
             <svg
               className="w-5 h-5 group-hover:-translate-x-1 transition-transform"
@@ -123,7 +123,7 @@ export default function CreateNewsPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, title: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                 placeholder="Masukkan judul berita"
               />
             </div>
@@ -137,7 +137,7 @@ export default function CreateNewsPage() {
                 {/* File Upload */}
                 <div>
                   <label className="block">
-                    <div className="flex items-center justify-center w-full px-4 py-6 border-2 border-dashed border-gray-300 rounded-lg hover:border-green-500 transition-colors cursor-pointer">
+                    <div className="flex items-center justify-center w-full px-4 py-6 border-2 border-dashed border-gray-300 rounded-lg hover:border-[#437118] transition-colors cursor-pointer">
                       <div className="text-center">
                         <svg
                           className="mx-auto h-12 w-12 text-gray-400"
@@ -209,7 +209,7 @@ export default function CreateNewsPage() {
                   onChange={(e) =>
                     setFormData({ ...formData, image_url: e.target.value })
                   }
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="https://example.com/image.jpg"
                 />
               </div>
@@ -230,7 +230,7 @@ export default function CreateNewsPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, content: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition resize-none"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition resize-none"
                 placeholder="Tulis konten berita di sini..."
               ></textarea>
             </div>
@@ -239,7 +239,7 @@ export default function CreateNewsPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="flex-1 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
+                className="flex-1 px-6 py-3 bg-[#437118] text-white font-medium rounded-lg hover:bg-[#375e14] transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
                 {loading ? 'Menyimpan...' : 'Simpan Berita'}
               </button>

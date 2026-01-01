@@ -112,7 +112,7 @@ export default function EditNewsPage({ params }: PageProps) {
     return (
       <div className="py-16 bg-gray-50 min-h-[calc(100vh-4rem)] flex items-center justify-center">
         <div className="text-center">
-          <div className="w-12 h-12 border-4 border-green-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <div className="w-12 h-12 border-4 border-[#437118] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
           <p className="text-gray-600">Memuat data...</p>
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function EditNewsPage({ params }: PageProps) {
         <div className="mb-8">
           <Link
             href="/dashboard/admin"
-            className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 mb-4 group"
+            className="inline-flex items-center gap-2 text-[#437118] hover:text-[#375e14] mb-4 group"
           >
             <svg
               className="w-5 h-5 group-hover:-translate-x-1 transition-transform"
@@ -170,7 +170,7 @@ export default function EditNewsPage({ params }: PageProps) {
                 onChange={(e) =>
                   setFormData({ ...formData, title: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                 placeholder="Masukkan judul berita"
               />
             </div>
@@ -184,7 +184,7 @@ export default function EditNewsPage({ params }: PageProps) {
                 {/* File Upload */}
                 <div>
                   <label className="block">
-                    <div className="flex items-center justify-center w-full px-4 py-6 border-2 border-dashed border-gray-300 rounded-lg hover:border-green-500 transition-colors cursor-pointer">
+                    <div className="flex items-center justify-center w-full px-4 py-6 border-2 border-dashed border-gray-300 rounded-lg hover:border-[#437118] transition-colors cursor-pointer">
                       <div className="text-center">
                         <svg
                           className="mx-auto h-12 w-12 text-gray-400"
@@ -257,7 +257,7 @@ export default function EditNewsPage({ params }: PageProps) {
                   onChange={(e) =>
                     setFormData({ ...formData, image_url: e.target.value })
                   }
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="https://example.com/image.jpg"
                 />
               </div>
@@ -278,7 +278,7 @@ export default function EditNewsPage({ params }: PageProps) {
                 onChange={(e) =>
                   setFormData({ ...formData, content: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition resize-none"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition resize-none"
                 placeholder="Tulis konten berita di sini..."
               ></textarea>
             </div>
@@ -287,7 +287,7 @@ export default function EditNewsPage({ params }: PageProps) {
               <button
                 type="submit"
                 disabled={saving}
-                className="flex-1 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
+                className="flex-1 px-6 py-3 bg-[#437118] text-white font-medium rounded-lg hover:bg-[#375e14] transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
                 {saving ? 'Menyimpan...' : 'Update Berita'}
               </button>

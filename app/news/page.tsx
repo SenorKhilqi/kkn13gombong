@@ -19,7 +19,7 @@ export default async function NewsPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Berita Desa</h1>
-          <div className="w-20 h-1 bg-green-600 mx-auto mb-4"></div>
+          <div className="w-20 h-1 bg-[#437118] mx-auto mb-4"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Informasi terkini tentang kegiatan, program, dan pengumuman penting
             dari desa kami

@@ -6,7 +6,7 @@ export default function SejarahPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Sejarah Desa Gombong</h1>
           <p className="text-lg text-gray-600 mb-4">Kecamatan Ciawi, Kabupaten Tasikmalaya</p>
-          <div className="w-20 h-1 bg-green-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-[#437118] mx-auto"></div>
         </div>
 
         {/* Content */}
@@ -29,7 +29,7 @@ export default function SejarahPage() {
           {/* Perjalanan ke Cimenga */}
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-              <span className="text-green-600">🗺️</span> Perjalanan ke Cimenga
+              <span className="text-[#437118]">🗺️</span> Perjalanan ke Cimenga
             </h2>
             <div className="bg-white border-2 border-gray-200 p-6 rounded-xl space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -45,9 +45,9 @@ export default function SejarahPage() {
           </section>
 
           {/* Embah Jidun - Nenek Moyang Gombong */}
-          <section className="bg-green-50 p-8 rounded-xl border border-green-200">
+          <section className="bg-[#437118]/10 p-8 rounded-xl border border-[#437118]/30">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <span className="text-green-600">👤</span> Embah Jidun - Nenek Moyang Gombong
+              <span className="text-[#437118]">👤</span> Embah Jidun - Nenek Moyang Gombong
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -75,7 +75,7 @@ export default function SejarahPage() {
           {/* Timeline Kepemimpinan */}
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-              <span className="text-green-600">📜</span> Perjalanan Kepemimpinan Desa Gombong
+              <span className="text-[#437118]">📜</span> Perjalanan Kepemimpinan Desa Gombong
             </h2>
             
             {/* Timeline Container */}
@@ -127,10 +127,10 @@ export default function SejarahPage() {
               </div>
 
               {/* Haji Dahlan */}
-              <div className="border-l-4 border-green-500 pl-6 pb-6">
-                <div className="bg-green-50 p-6 rounded-xl border border-green-200">
+              <div className="border-l-4 border-[#437118] pl-6 pb-6">
+                <div className="bg-[#437118]/10 p-6 rounded-xl border border-[#437118]/30">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="px-3 py-1 bg-green-600 text-white text-sm font-semibold rounded-full">1889 - 1919</span>
+                    <span className="px-3 py-1 bg-[#437118] text-white text-sm font-semibold rounded-full">1889 - 1919</span>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Haji Dahlan</h3>
                   <p className="text-gray-700 mb-3">
@@ -197,8 +197,8 @@ export default function SejarahPage() {
                     Menjabat selama 3 tahun. Pada masa kepemimpinannya, Desa Gombong dimekarkan menjadi 2 Desa:
                   </p>
                   <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-white p-4 rounded-lg border-2 border-green-300">
-                      <h4 className="font-semibold text-green-800 mb-2">Desa Gombong</h4>
+                    <div className="bg-white p-4 rounded-lg border-2 border-[#437118]/50">
+                      <h4 className="font-semibold text-[#437118] mb-2">Desa Gombong</h4>
                       <p className="text-sm text-gray-700 mb-2">Kepala Desa: Idi Sumawijaya</p>
                       <p className="text-sm text-gray-600">5 Dusun: Gombong, Sukamandi, Bugel, Karamasantana, Pocol (sekarang 6 dengan Pananyung)</p>
                     </div>
@@ -251,10 +251,10 @@ export default function SejarahPage() {
               </div>
 
               {/* Jamali */}
-              <div className="border-l-4 border-emerald-500 pl-6">
-                <div className="bg-emerald-50 p-6 rounded-xl border border-emerald-200">
+              <div className="border-l-4 border-[#437118] pl-6">
+                <div className="bg-[#437118]/10 p-6 rounded-xl border border-[#437118]/30">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="px-3 py-1 bg-emerald-600 text-white text-sm font-semibold rounded-full">2001 - 2006</span>
+                    <span className="px-3 py-1 bg-[#437118] text-white text-sm font-semibold rounded-full">2001 - 2006</span>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Jamali</h3>
                   <p className="text-gray-700">
@@ -266,7 +266,7 @@ export default function SejarahPage() {
           </section>
 
           {/* Catatan Penutup */}
-          <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-xl text-center">
+          <section className="bg-gradient-to-r from-[#437118] to-blue-600 text-white p-8 rounded-xl text-center">
             <h3 className="text-xl font-semibold mb-3">📖 Warisan Sejarah</h3>
             <p className="leading-relaxed max-w-3xl mx-auto">
               Perjalanan panjang Desa Gombong dari masa huru hara hingga menjadi desa yang tentram dan damai merupakan bukti kegigihan para pemimpin dan masyarakatnya. Dari keturunan Mataram hingga kini, nilai-nilai gotong royong dan keislaman tetap terjaga sebagai identitas Desa Gombong.

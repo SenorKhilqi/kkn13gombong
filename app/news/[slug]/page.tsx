@@ -39,7 +39,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
         {/* Back Button */}
         <Link
           href="/news"
-          className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 mb-8 group"
+          className="inline-flex items-center gap-2 text-[#437118] hover:text-[#375e14] mb-8 group"
         >
           <svg
             className="w-5 h-5 group-hover:-translate-x-1 transition-transform"
@@ -101,7 +101,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
             <button className="px-4 py-2 bg-sky-500 text-white text-sm rounded-lg hover:bg-sky-600 transition-colors">
               Twitter
             </button>
-            <button className="px-4 py-2 bg-green-600 text-white text-sm rounded-lg hover:bg-green-700 transition-colors">
+            <button className="px-4 py-2 bg-[#437118] text-white text-sm rounded-lg hover:bg-[#375e14] transition-colors">
               WhatsApp
             </button>
           </div>

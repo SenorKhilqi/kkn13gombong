@@ -5,7 +5,7 @@ export default function KontakPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Hubungi Kami</h1>
-          <div className="w-20 h-1 bg-green-600 mx-auto mb-4"></div>
+          <div className="w-20 h-1 bg-[#437118] mx-auto mb-4"></div>
           <p className="text-gray-600">
             Jangan ragu untuk menghubungi kami jika ada pertanyaan atau saran
           </p>
@@ -19,9 +19,9 @@ export default function KontakPage() {
             </h2>
 
             <div className="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-[#437118]/20 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg
-                  className="w-6 h-6 text-green-600"
+                  className="w-6 h-6 text-[#437118]"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -135,7 +135,7 @@ export default function KontakPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="Masukkan nama Anda"
                 />
               </div>
@@ -146,7 +146,7 @@ export default function KontakPage() {
                 </label>
                 <input
                   type="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="nama@email.com"
                 />
               </div>
@@ -157,7 +157,7 @@ export default function KontakPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="Subjek pesan"
                 />
               </div>
@@ -168,14 +168,14 @@ export default function KontakPage() {
                 </label>
                 <textarea
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition resize-none"
                   placeholder="Tulis pesan Anda di sini..."
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors"
+                className="w-full px-6 py-3 bg-[#437118] text-white font-medium rounded-lg hover:bg-[#375e14] transition-colors"
               >
                 Kirim Pesan
               </button>

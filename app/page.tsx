@@ -19,12 +19,12 @@ export default async function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-green-50 to-blue-50 py-20">
+      <section className="bg-gradient-to-br from-[#437118]/10 to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
               Selamat Datang di
-              <span className="block text-green-600 mt-2">Desa Gombong</span>
+              <span className="block text-[#437118] mt-2">Desa Gombong</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Portal informasi dan layanan digital untuk masyarakat desa.
@@ -33,13 +33,13 @@ export default async function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/profil"
-                className="px-8 py-3 bg-green-600 text-white rounded-lg font-medium hover:bg-green-700 transition-colors"
+                className="px-8 py-3 bg-[#437118] text-white rounded-lg font-medium hover:bg-[#375e14] transition-colors"
               >
                 Profil Desa
               </Link>
               <Link
                 href="/news"
-                className="px-8 py-3 bg-white text-green-600 border-2 border-green-600 rounded-lg font-medium hover:bg-green-50 transition-colors"
+                className="px-8 py-3 bg-white text-[#437118] border-2 border-[#437118] rounded-lg font-medium hover:bg-[#437118]/10 transition-colors"
               >
                 Berita Terkini
               </Link>
@@ -55,7 +55,7 @@ export default async function Home() {
             <h2 className="text-3xl font-bold text-gray-900">Berita Terkini</h2>
             <Link
               href="/news"
-              className="text-green-600 hover:text-green-700 font-medium flex items-center gap-1"
+              className="text-[#437118] hover:text-[#375e14] font-medium flex items-center gap-1"
             >
               Lihat Semua
               <svg
@@ -93,9 +93,9 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#437118]/10 rounded-lg flex items-center justify-center mb-4">
                 <svg
-                  className="w-6 h-6 text-green-600"
+                  className="w-6 h-6 text-[#437118]"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

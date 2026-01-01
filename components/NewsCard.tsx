@@ -19,7 +19,7 @@ export default function NewsCard({ news }: NewsCardProps) {
       className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100"
     >
       {/* Image */}
-      <div className="aspect-video bg-gradient-to-br from-green-100 to-blue-100 overflow-hidden">
+      <div className="aspect-video bg-gradient-to-br from-[#437118]/10 to-blue-100 overflow-hidden">
         {news.image_url ? (
           <img
             src={news.image_url}
@@ -45,7 +45,7 @@ export default function NewsCard({ news }: NewsCardProps) {
 
       {/* Content */}
       <div className="p-5">
-        <h3 className="font-semibold text-lg text-gray-900 group-hover:text-green-600 transition-colors line-clamp-2 mb-2">
+        <h3 className="font-semibold text-lg text-gray-900 group-hover:text-[#437118] transition-colors line-clamp-2 mb-2">
           {news.title}
         </h3>
         <p className="text-sm text-gray-600 line-clamp-3 mb-4">
