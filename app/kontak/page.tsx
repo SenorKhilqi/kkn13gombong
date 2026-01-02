@@ -1,4 +1,32 @@
+'use client';
+
+import { useState } from 'react';
+import { sendContactEmail } from '@/app/actions/contact';
+
 export default function KontakPage() {
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    setMessage(null);
+
+    const formData = new FormData(e.currentTarget);
+    const result = await sendContactEmail(formData);
+
+    setLoading(false);
+    setMessage({
+      type: result.success ? 'success' : 'error',
+      text: result.message,
+    });
+
+    if (result.success) {
+      // Reset form
+      e.currentTarget.reset();
+    }
+  };
+
   return (
     <div className="py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -128,13 +156,29 @@ export default function KontakPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">
               Kirim Pengaduan
             </h2>
-            <form className="space-y-4">
+
+            {/* Success/Error Message */}
+            {message && (
+              <div
+                className={`mb-6 p-4 rounded-lg ${
+                  message.type === 'success'
+                    ? 'bg-green-50 border border-green-200 text-green-800'
+                    : 'bg-red-50 border border-red-200 text-red-800'
+                }`}
+              >
+                {message.text}
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Nama Lengkap
+                  Nama Lengkap *
                 </label>
                 <input
                   type="text"
+                  name="name"
+                  required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="Masukkan nama Anda"
                 />
@@ -142,10 +186,12 @@ export default function KontakPage() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Email
+                  Email *
                 </label>
                 <input
                   type="email"
+                  name="email"
+                  required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="nama@email.com"
                 />
@@ -153,10 +199,12 @@ export default function KontakPage() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Subjek
+                  Subjek *
                 </label>
                 <input
                   type="text"
+                  name="subject"
+                  required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                   placeholder="Subjek pesan"
                 />
@@ -164,9 +212,11 @@ export default function KontakPage() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Pesan
+                  Pesan *
                 </label>
                 <textarea
+                  name="message"
+                  required
                   rows={5}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition resize-none"
                   placeholder="Tulis pesan Anda di sini..."
@@ -175,9 +225,10 @@ export default function KontakPage() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-[#437118] text-white font-medium rounded-lg hover:bg-[#375e14] transition-colors"
+                disabled={loading}
+                className="w-full px-6 py-3 bg-[#437118] text-white font-medium rounded-lg hover:bg-[#375e14] transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
-                Kirim Pesan
+                {loading ? 'Mengirim...' : 'Kirim Pesan'}
               </button>
             </form>
           </div>

@@ -68,7 +68,7 @@ export default function SejarahPage() {
               <span className="text-blue-600">🎋</span> Asal Nama "Gombong"
             </h3>
             <p className="text-gray-700 leading-relaxed">
-              Perkataan <strong>"Gombong"</strong> menurut sejarah Desa setempat, karena Desa tersebut asalnya merupakan sebuah hutan bambu yang besar dan benar-benar banyak di tempat itu. Kata <em>Gombong</em> artinya pohon bambu yang besar, begitu pula menurut pengakuan orang-orang Jawa. Sebelum datangnya Embah Jidun, Desa Gombong merupakan sebuah tegalan yang ditumbuhi rumpun-rumpun bambu dan diselingi beberapa selokan kecil.
+              Perkataan <strong>"Gombong"</strong> menurut sejarah Desa setempat, berasal dari kondisi wilayah yang pada awalnya merupakan hutan bambu yang sangat luas dan tumbuh sangat lebat di daerah tersebut.s Kata <em>Gombong</em> artinya pohon bambu yang besar, begitu pula menurut pengakuan orang-orang Jawa. Sebelum datangnya Embah Jidun, Desa Gombong merupakan sebuah tegalan yang ditumbuhi rumpun-rumpun bambu dan diselingi beberapa selokan kecil.
             </p>
           </section>
 
@@ -167,7 +167,7 @@ export default function SejarahPage() {
                     Putra sulung Tanuwijaya. Memiliki sifat hampir sama seperti ayahnya. <strong>Desa Gombong mengalami masa jayanya</strong> dengan banyak kemajuan yang dicapai.
                   </p>
                   <p className="text-gray-700">
-                    Masyarakat kembali ke dalam keadaan tentram dan damai. Memegang tampuk pimpinan selama <strong>40 tahun</strong> - merupakan jabatan paling lama! Berhenti pada 20 April 1965 karena lanjut usia.
+                    Masyarakat kembali ke dalam keadaan tentram dan damai. Memegang tampuk pimpinan selama <strong>40 tahun</strong> dan merupakan jabatan paling lama. Berhenti pada 20 April 1965 karena lanjut usia.
                   </p>
                 </div>
               </div>

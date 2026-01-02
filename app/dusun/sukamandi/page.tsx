@@ -13,17 +13,6 @@ export default function DusunSukamandiPage() {
         </div>
 
         {/* Kepala Dusun */}
-        <div className="bg-gradient-to-br from-[#437118] to-blue-600 text-white p-8 rounded-xl shadow-lg mb-8">
-          <div className="flex items-center gap-6">
-            <div className="w-20 h-20 rounded-full overflow-hidden bg-white flex-shrink-0">
-              <img src="/images/aparatur/titasholihatulmunirohhilmi.png" alt="Tita Sholihatul Muniroh Hilmi" className="w-full h-full object-cover" />
-            </div>
-            <div>
-              <h2 className="text-sm font-medium opacity-90 mb-1">Kepala Dusun</h2>
-              <p className="text-2xl font-bold">Tita Sholihatul Muniroh Hilmi, S.E</p>
-            </div>
-          </div>
-        </div>
 
         {/* Deskripsi */}
         <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 mb-8">

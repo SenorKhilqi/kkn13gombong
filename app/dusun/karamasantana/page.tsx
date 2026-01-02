@@ -12,19 +12,6 @@ export default function DusunKaramasantanaPage() {
           <div className="w-20 h-1 bg-[#437118] mx-auto mt-4"></div>
         </div>
 
-        {/* Kepala Dusun */}
-        <div className="bg-gradient-to-br from-[#437118] to-blue-600 text-white p-8 rounded-xl shadow-lg mb-8">
-          <div className="flex items-center gap-6">
-            <div className="w-20 h-20 rounded-full overflow-hidden bg-white flex-shrink-0">
-              <img src="/images/aparatur/enjanghadihidayah.png" alt="Enjang Hadi Hidayah" className="w-full h-full object-cover" />
-            </div>
-            <div>
-              <h2 className="text-sm font-medium opacity-90 mb-1">Kepala Dusun</h2>
-              <p className="text-2xl font-bold">Enjang Hadi Hidayah</p>
-            </div>
-          </div>
-        </div>
-
         {/* Deskripsi */}
         <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 mb-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Tentang Dusun Karamasantana</h2>
