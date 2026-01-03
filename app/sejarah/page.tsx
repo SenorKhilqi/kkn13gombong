@@ -4,7 +4,7 @@ export default function SejarahPage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">Sejarah Desa Gombong</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Riwayat Lisan Desa Gombong</h1>
           <p className="text-lg text-gray-600 mb-4">Kecamatan Ciawi, Kabupaten Tasikmalaya</p>
           <div className="w-20 h-1 bg-[#437118] mx-auto"></div>
         </div>

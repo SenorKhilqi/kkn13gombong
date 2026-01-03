@@ -121,8 +121,7 @@ export default function KontakPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                <p className="text-gray-600">info@desadigital.id</p>
-                <p className="text-gray-600">admin@desadigital.id</p>
+                <p className="text-gray-600">desagombong2018@gmail.com</p>
               </div>
             </div>
 
