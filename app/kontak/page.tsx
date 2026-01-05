@@ -232,6 +232,25 @@ export default function KontakPage() {
             </form>
           </div>
         </div>
+
+        {/* Google Maps */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
+            Lokasi Kami
+          </h2>
+          <div className="rounded-xl overflow-hidden shadow-lg">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.40167290957413!2d108.13804686135936!3d-7.192048996553343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4c2effffffff%3A0xdaf109cc3813947a!2sKantor%20Desa%20Gombong%20Yaya%20Muhidin!5e0!3m2!1sen!2sid!4v1767458338920!5m2!1sen!2sid" 
+              width="100%" 
+              height="450" 
+              style={{ border: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Lokasi Kantor Desa Gombong"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
   );

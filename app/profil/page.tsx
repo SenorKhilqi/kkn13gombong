@@ -102,13 +102,13 @@ export default function ProfilPage() {
             <div className="bg-white p-6 rounded-xl border border-gray-200">
               <h3 className="font-semibold text-lg text-gray-900 mb-4">Fasilitas Publik</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="flex items-center gap-3">
+                <a href="/fasilitas/sekolah" className="flex items-center gap-3 p-3 rounded-lg hover:bg-[#437118]/5 hover:border hover:border-[#437118] transition-all cursor-pointer">
                   <span className="text-2xl">🏫</span>
                   <div>
                     <p className="font-medium text-gray-900">4 Sekolah Dasar</p>
                     <p className="text-sm text-gray-600">Fasilitas Pendidikan</p>
                   </div>
-                </div>
+                </a>
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">🕌</span>
                   <div>
@@ -203,6 +203,15 @@ export default function ProfilPage() {
                     <p className="text-gray-600 text-sm">Yanti Haryati</p>
                   </div>
                 </div>
+                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-yellow-500 transition-colors">
+                  <div className="text-center">
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/yayamuhidin.png" alt="Yaya Muhidin" className="w-full h-full object-cover" />
+                    </div>
+                    <h4 className="font-semibold text-gray-900">Kaur Keuangan</h4>
+                    <p className="text-gray-600 text-sm">Yaya Muhidin, S. Kom</p>
+                  </div>
+                </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-blue-500 transition-colors">
                   <div className="text-center">
                     <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
@@ -219,15 +228,6 @@ export default function ProfilPage() {
                     </div>
                     <h4 className="font-semibold text-gray-900">Kasi Kesejahteraan</h4>
                     <p className="text-gray-600 text-sm">Nani Cuarni</p>
-                  </div>
-                </div>
-                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-yellow-500 transition-colors">
-                  <div className="text-center">
-                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
-                      <img src="/images/aparatur/yayamuhidin.png" alt="Yaya Muhidin" className="w-full h-full object-cover" />
-                    </div>
-                    <h4 className="font-semibold text-gray-900">Kaur Keuangan</h4>
-                    <p className="text-gray-600 text-sm">Yaya Muhidin, S. Kom</p>
                   </div>
                 </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-[#1D2A62] transition-colors">
