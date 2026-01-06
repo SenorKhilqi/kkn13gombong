@@ -8,8 +8,21 @@ import { getAuthUser } from "@/lib/auth";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Desa Gombong - Portal Informasi Desa",
-  description: "Portal informasi dan layanan digital untuk masyarakat desa",
+  title: "Desa Gombong Kab Tasikmalaya",
+  description: "Portal informasi dan layanan digital Desa Gombong, Kabupaten Tasikmalaya, Jawa Barat",
+  keywords: ["Desa Gombong", "Kabupaten Tasikmalaya", "Tasikmalaya", "Portal Desa", "Gombong"],
+  authors: [{ name: "Desa Gombong" }],
+  openGraph: {
+    title: "Desa Gombong Kab Tasikmalaya",
+    description: "Portal informasi dan layanan digital Desa Gombong, Kabupaten Tasikmalaya, Jawa Barat",
+    type: "website",
+    locale: "id_ID",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Desa Gombong Kab Tasikmalaya",
+    description: "Portal informasi dan layanan digital Desa Gombong, Kabupaten Tasikmalaya, Jawa Barat",
+  },
 };
 
 export default async function RootLayout({
