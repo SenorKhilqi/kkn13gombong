@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-white font-semibold text-lg mb-4">Desa Digital</h3>
+            <h3 className="text-white font-semibold text-lg mb-4">Desa Gombong Ciawi</h3>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Portal informasi dan layanan digital untuk masyarakat desa.
+              Website resmi Pemerintah Desa Gombong Ciawi. Portal informasi dan layanan digital untuk masyarakat desa.
               Mewujudkan desa yang lebih maju dan terhubung.
             </p>
           </div>
@@ -57,15 +57,20 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Kontak</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>📍 Jl. Gombong, Desa Gombong, Ciawi, Kab. Tasikmalaya</li>
+              <li>📍 Desa Gombong Ciawi, Kecamatan Ciawi, Kabupaten Tasikmalaya</li>
               <li>📞 (021) 1234-5678</li>
               <li>✉️ desagombong2018@gmail.com</li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Desa Digital. All rights reserved. BY Khilqi alfa
+        <div className="mt-8 pt-8 border-t border-gray-800">
+          <div className="text-center text-sm text-gray-400">
+            <p className="mb-2">© {new Date().getFullYear()} Pemerintah Desa Gombong Ciawi. Hak Cipta Dilindungi.</p>
+            <p className="text-xs text-gray-500">
+              Website resmi: <a href="https://desagomboongciawi.com" className="hover:text-[#437118] transition-colors">https://desagomboongciawi.com</a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

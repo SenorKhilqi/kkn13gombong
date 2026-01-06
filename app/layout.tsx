@@ -8,20 +8,22 @@ import { getAuthUser } from "@/lib/auth";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Desa Gombong Kab Tasikmalaya",
-  description: "Portal informasi dan layanan digital Desa Gombong, Kabupaten Tasikmalaya, Jawa Barat",
-  keywords: ["Desa Gombong", "Kabupaten Tasikmalaya", "Tasikmalaya", "Portal Desa", "Gombong"],
-  authors: [{ name: "Desa Gombong" }],
+  title: "Sistem Informasi Desa Gombong Ciawi",
+  description: "Website resmi Pemerintah Desa Gombong Ciawi - Portal informasi dan layanan digital untuk masyarakat Desa Gombong Ciawi, Kecamatan Ciawi, Kabupaten Tasikmalaya",
+  keywords: ["Desa Gombong Ciawi", "Pemerintah Desa", "Tasikmalaya", "Ciawi", "Informasi Desa"],
+  authors: [{ name: "Pemerintah Desa Gombong Ciawi" }],
   openGraph: {
-    title: "Desa Gombong Kab Tasikmalaya",
-    description: "Portal informasi dan layanan digital Desa Gombong, Kabupaten Tasikmalaya, Jawa Barat",
-    type: "website",
+    title: "Sistem Informasi Desa Gombong Ciawi",
+    description: "Website resmi Pemerintah Desa Gombong Ciawi - Portal informasi dan layanan digital untuk masyarakat Desa Gombong Ciawi",
+    url: "https://desagomboongciawi.com",
+    siteName: "Sistem Informasi Desa Gombong Ciawi",
     locale: "id_ID",
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Desa Gombong Kab Tasikmalaya",
-    description: "Portal informasi dan layanan digital Desa Gombong, Kabupaten Tasikmalaya, Jawa Barat",
+    title: "Sistem Informasi Desa Gombong Ciawi",
+    description: "Website resmi Pemerintah Desa Gombong Ciawi",
   },
 };
 

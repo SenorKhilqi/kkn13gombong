@@ -25,17 +25,17 @@ export default async function Home() {
             <div className="w-32 h-32 mx-auto mb-8 animate-fade-in">
               <img 
                 src="/images/logo/logo.png" 
-                alt="Logo Desa Gombong" 
+                alt="Logo Desa Gombong Ciawi" 
                 className="w-full h-full object-contain"
               />
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
               Selamat Datang di
-              <span className="block text-[#437118] mt-2">Desa Gombong</span>
+              <span className="block text-[#437118] mt-2">Sistem Informasi Desa Gombong Ciawi</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+              Website resmi Pemerintah Desa Gombong Ciawi, Kecamatan Ciawi, Kabupaten Tasikmalaya.
               Portal informasi dan layanan digital untuk masyarakat desa.
-              Mewujudkan desa yang lebih maju dan terhubung.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

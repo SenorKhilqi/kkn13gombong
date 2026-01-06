@@ -35,15 +35,18 @@ export default function Navbar({ user }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 flex items-center justify-center">
               <img 
                 src="/images/logo/logo.png" 
-                alt="Logo Desa Gombong" 
+                alt="Logo Desa Gombong Ciawi" 
                 className="w-full h-full object-contain"
               />
             </div>
-            <span className="font-bold text-xl text-gray-900">Desa Gombong</span>
+            <div className="flex flex-col">
+              <span className="font-bold text-base leading-tight text-gray-900">Desa Gombong Ciawi</span>
+              <span className="text-xs text-gray-600">Ciawi, Tasikmalaya</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
