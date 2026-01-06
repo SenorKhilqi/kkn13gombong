@@ -4,6 +4,13 @@ export default function DusunPananyungPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
+          <div className="w-24 h-24 mx-auto mb-6 animate-fade-in">
+            <img 
+              src="/images/logo/logo.png" 
+              alt="Logo Desa Gombong" 
+              className="w-full h-full object-contain"
+            />
+          </div>
           <div className="inline-flex items-center justify-center w-24 h-24 rounded-full overflow-hidden bg-gray-100 mb-6">
             <img src="/images/aparatur/amatbongsor.png" alt="Amat Bongsor" className="w-full h-full object-cover" />
           </div>
@@ -19,6 +26,50 @@ export default function DusunPananyungPage() {
             Dusun Pananyung merupakan salah satu dusun di Desa Gombong, Kecamatan Ciawi, Kabupaten Tasikmalaya. 
             Dusun ini memiliki potensi alam yang indah dengan masyarakat yang aktif dalam kegiatan pembangunan desa.
           </p>
+        </div>
+
+        {/* Statistik Penduduk */}
+        <div className="bg-white border-2 border-[#437118] p-8 rounded-xl mb-8">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6">Data Kependudukan</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="text-3xl">👨</span>
+                <h3 className="text-lg font-semibold text-gray-900">Jumlah Laki-laki</h3>
+              </div>
+              <p className="text-3xl font-bold text-blue-600">407 jiwa</p>
+            </div>
+            <div className="bg-pink-50 p-6 rounded-lg">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="text-3xl">👩</span>
+                <h3 className="text-lg font-semibold text-gray-900">Jumlah Perempuan</h3>
+              </div>
+              <p className="text-3xl font-bold text-pink-600">369 jiwa</p>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="text-3xl">👥</span>
+                <h3 className="text-lg font-semibold text-gray-900">Total Penduduk</h3>
+              </div>
+              <p className="text-3xl font-bold text-green-600">776 jiwa</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="text-3xl">🏠</span>
+                <h3 className="text-lg font-semibold text-gray-900">Total Kepala Keluarga</h3>
+              </div>
+              <p className="text-3xl font-bold text-orange-600">270 KK</p>
+            </div>
+          </div>
+          <div className="mt-6 bg-gray-50 p-6 rounded-lg">
+            <div className="flex items-start gap-3">
+              <span className="text-2xl">🗺️</span>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Cakupan Wilayah</h3>
+                <p className="text-gray-700">RW 001 (RT 001-002) dan RW 002 (RT 001-003)</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Informasi Tambahan */}

@@ -4,6 +4,13 @@ export default function ProfilPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
+          <div className="w-24 h-24 mx-auto mb-6 animate-fade-in">
+            <img 
+              src="/images/logo/logo.png" 
+              alt="Logo Desa Gombong" 
+              className="w-full h-full object-contain"
+            />
+          </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Profil Desa Gombong</h1>
           <p className="text-lg text-gray-600 mb-4">Kecamatan Ciawi, Kabupaten Tasikmalaya</p>
           <div className="w-20 h-1 bg-[#1D2A62] mx-auto"></div>
@@ -230,15 +237,6 @@ export default function ProfilPage() {
                     <p className="text-gray-600 text-sm">Nani Cuarni</p>
                   </div>
                 </div>
-                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-[#1D2A62] transition-colors">
-                  <div className="text-center">
-                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
-                      <img src="/images/aparatur/cindriania.png" alt="Cindri Ania" className="w-full h-full object-cover" />
-                    </div>
-                    <h4 className="font-semibold text-gray-900">Staff Desa</h4>
-                    <p className="text-gray-600 text-sm">Cindri Ania</p>
-                  </div>
-                </div>
                 <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-blue-500 transition-colors">
                   <div className="text-center">
                     <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
@@ -333,6 +331,23 @@ export default function ProfilPage() {
               </div>
             </div>
           </section>
+
+           {/* Staff Pembantu */}
+            <div className="mb-8">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Staff Pembantu</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div className="bg-white border-2 border-gray-200 p-4 rounded-xl hover:border-[#1D2A62] transition-colors">
+                  <div className="text-center">
+                    <div className="w-16 h-16 rounded-full mx-auto mb-3 overflow-hidden bg-gray-100">
+                      <img src="/images/aparatur/cindriania.png" alt="Cindri Ania" className="w-full h-full object-cover" />
+                    </div>
+                    <h4 className="font-semibold text-gray-900">Kaur Keuangan</h4>
+                    <p className="text-gray-600 text-sm">Cindri Ania</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
           {/* Data Ringkas */}
           <section className="bg-gradient-to-r from-[#1D2A62] to-[#437118] text-white p-8 rounded-xl">

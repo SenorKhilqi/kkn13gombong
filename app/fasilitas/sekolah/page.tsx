@@ -4,6 +4,13 @@ export default function SekolahPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
+          <div className="w-24 h-24 mx-auto mb-6 animate-fade-in">
+            <img 
+              src="/images/logo/logo.png" 
+              alt="Logo Desa Gombong" 
+              className="w-full h-full object-contain"
+            />
+          </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Fasilitas Pendidikan</h1>
           <div className="w-20 h-1 bg-[#437118] mx-auto mb-4"></div>
           <p className="text-gray-600">
@@ -58,7 +65,7 @@ export default function SekolahPage() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">SDN 3 Gombong</h3>
                   <p className="text-gray-600 mb-3">Sekolah Dasar Negeri 3 Gombong</p>
                   <div className="space-y-2 text-sm text-gray-600">
-                    <p>📍 Dusun Karamasantana</p>
+                    <p>📍 Dusun Pocol</p>
                     <p>👨‍🎓 Status: Negeri</p>
                   </div>
                 </div>
@@ -71,10 +78,11 @@ export default function SekolahPage() {
                   <span className="text-3xl">🏫</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">SDN 4 Gombong</h3>
-                  <p className="text-gray-600 mb-3">Sekolah Dasar Negeri 4 Gombong</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">SDN Karamasantana</h3>
+                  <p className="text-gray-600 mb-3">Sekolah Dasar Negeri Karamasantana</p>
                   <div className="space-y-2 text-sm text-gray-600">
-                    <p>📍 Dusun Pocol</p>
+                    <p>📍 Dusun Karamasantana</p>
+                    <p>Tidak dinamai SDN Gombong karena SDN Karamasantana dibangun di atas tanah wakaf dari warga bukan tanah dari pemerintah.</p>
                     <p>👨‍🎓 Status: Negeri</p>
                   </div>
                 </div>

@@ -3,18 +3,25 @@ import Image from 'next/image';
 
 const ketuaWilayah = [
   {
-    name: "Ruhimat",
-    dusun: "Bugel",
-    link: "/dusun/bugel",
-    color: "from-[#437118] to-[#375e14]",
-    image: "/images/aparatur/ruhimat.png"
-  },
-  {
     name: "Dody Nurwadi",
     dusun: "Gombong",
     link: "/dusun/gombong",
     color: "from-blue-600 to-blue-800",
     image: "/images/aparatur/dodynurwadi.png"
+  },
+  {
+    name: "Tita Sholihatul Muniroh Hilmi, S.E",
+    dusun: "Sukamandi",
+    link: "/dusun/sukamandi",
+    color: "from-red-600 to-red-800",
+    image: "/images/aparatur/titasholihatulmunirohhilmi.png"
+  },
+  {
+    name: "Ruhimat",
+    dusun: "Bugel",
+    link: "/dusun/bugel",
+    color: "from-[#437118] to-[#375e14]",
+    image: "/images/aparatur/ruhimat.png"
   },
   {
     name: "Enjang Hadi Hidayah",
@@ -24,13 +31,6 @@ const ketuaWilayah = [
     image: "/images/aparatur/enjanghadihidayah.png"
   },
   {
-    name: "Amat Bongsor",
-    dusun: "Pananyung",
-    link: "/dusun/pananyung",
-    color: "from-orange-600 to-orange-800",
-    image: "/images/aparatur/amatbongsor.png"
-  },
-  {
     name: "Mastuti Nuraeni",
     dusun: "Pocol",
     link: "/dusun/pocol",
@@ -38,11 +38,11 @@ const ketuaWilayah = [
     image: "/images/aparatur/mastutinuraeni.png"
   },
   {
-    name: "Tita Sholihatul Muniroh Hilmi, S.E",
-    dusun: "Sukamandi",
-    link: "/dusun/sukamandi",
-    color: "from-red-600 to-red-800",
-    image: "/images/aparatur/titasholihatulmunirohhilmi.png"
+    name: "Amat Bongsor",
+    dusun: "Pananyung",
+    link: "/dusun/pananyung",
+    color: "from-orange-600 to-orange-800",
+    image: "/images/aparatur/amatbongsor.png"
   },
 ];
 

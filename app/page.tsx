@@ -22,6 +22,13 @@ export default async function Home() {
       <section className="bg-gradient-to-br from-[#437118]/10 to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <div className="w-32 h-32 mx-auto mb-8 animate-fade-in">
+              <img 
+                src="/images/logo/logo.png" 
+                alt="Logo Desa Gombong" 
+                className="w-full h-full object-contain"
+              />
+            </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
               Selamat Datang di
               <span className="block text-[#437118] mt-2">Desa Gombong</span>

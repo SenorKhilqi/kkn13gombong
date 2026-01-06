@@ -4,6 +4,13 @@ export default function SejarahPage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
+          <div className="w-24 h-24 mx-auto mb-6 animate-fade-in">
+            <img 
+              src="/images/logo/logo.png" 
+              alt="Logo Desa Gombong" 
+              className="w-full h-full object-contain"
+            />
+          </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Riwayat Lisan Desa Gombong</h1>
           <p className="text-lg text-gray-600 mb-4">Kecamatan Ciawi, Kabupaten Tasikmalaya</p>
           <div className="w-20 h-1 bg-[#437118] mx-auto"></div>
@@ -251,7 +258,7 @@ export default function SejarahPage() {
               </div>
 
               {/* Jamali */}
-              <div className="border-l-4 border-[#437118] pl-6">
+              <div className="border-l-4 border-[#437118] pl-6 pb-6">
                 <div className="bg-[#437118]/10 p-6 rounded-xl border border-[#437118]/30">
                   <div className="flex items-center gap-3 mb-3">
                     <span className="px-3 py-1 bg-[#437118] text-white text-sm font-semibold rounded-full">2001 - 2006</span>
@@ -259,6 +266,34 @@ export default function SejarahPage() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Jamali</h3>
                   <p className="text-gray-700">
                     Berasal dari Kampung Pananyung. Memegang pemerintahan selama 5 tahun.
+                  </p>
+                </div>
+              </div>
+
+              {/* Pejabat Sementara 2008 */}
+              <div className="border-l-4 border-gray-500 pl-6 pb-6">
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-300">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="px-3 py-1 bg-gray-600 text-white text-sm font-semibold rounded-full">2008 - 2008 & 2014 - 2014</span>
+                    <span className="px-3 py-1 bg-gray-400 text-white text-xs font-semibold rounded-full">PEJABAT SEMENTARA</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Ii Ismail, SIP & AA Rahmat, S.Ag</h3>
+                  <p className="text-gray-700">
+                    Menjabat sebagai pejabat sementara pada tahun 2008.
+                  </p>
+                </div>
+              </div>
+
+              {/* Tantan Taofik Sutanto */}
+              <div className="border-l-4 border-[#1D2A62] pl-6">
+                <div className="bg-gradient-to-br from-[#1D2A62]/10 to-blue-50 p-6 rounded-xl border-2 border-[#1D2A62]/30 shadow-md">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="px-3 py-1 bg-[#1D2A62] text-white text-sm font-semibold rounded-full">2007 - 2027</span>
+                    <span className="px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full">MASA KINI</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Tantan Taofik Sutanto, ST</h3>
+                  <p className="text-gray-700">
+                    Memimpin Desa Gombong dalam era modern dengan fokus pada pembangunan infrastruktur dan peningkatan kesejahteraan masyarakat.
                   </p>
                 </div>
               </div>

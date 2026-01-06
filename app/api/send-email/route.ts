@@ -18,8 +18,9 @@ export async function POST(request: Request) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_USER || 'khilqialfadhillah@gmail.com',
-        pass: process.env.EMAIL_PASSWORD || 'sywm lbgp wgyl txho', // App Password dari Gmail
+        user: process.env.EMAIL_USER || 'desagombong2018@gmail.com',
+        pass: process.env.EMAIL_PASSWORD || 'jnqz jreb bdsa tgsb', // App Password dari Gmail
+        // pass: process.env.EMAIL_PASSWORD || 'sywm lbgp wgyl txho', // App Password dari Gmail
       },
     });
 
@@ -69,8 +70,8 @@ export async function POST(request: Request) {
 
     // Kirim email
     await transporter.sendMail({
-      from: `"Website Desa Gombong" <${process.env.EMAIL_USER || 'khilqialafadhillah@gmail.com'}>`,
-      to: 'khilqialfadhillah@gmail.com',
+      from: `"Website Desa Gombong" <${process.env.EMAIL_USER || 'desagombong2018@gmail.com'}>`,
+      to: 'desagombong2018@gmail.com',
       replyTo: email,
       subject: `[Kontak Website] ${subject}`,
       html: htmlContent,

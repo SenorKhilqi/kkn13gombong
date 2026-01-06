@@ -17,6 +17,13 @@ export default async function NewsPage() {
     <div className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
+        <div className="w-24 h-24 mx-auto mb-6 animate-fade-in">
+            <img 
+              src="/images/logo/logo.png" 
+              alt="Logo Desa Gombong" 
+              className="w-full h-full object-contain"
+            />
+          </div>
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Berita Desa</h1>
           <div className="w-20 h-1 bg-[#437118] mx-auto mb-4"></div>
