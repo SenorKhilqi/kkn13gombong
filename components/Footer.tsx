@@ -36,13 +36,37 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/sejarah"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
+                >
+                  Sejarah
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/fasilitas/sekolah"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
+                >
+                  Sekolah
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/punduh"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
+                >
+                  Punduh
+                </Link>
+              </li>
+                            <li>
+                <Link
                   href="/news"
                   className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
                 >
                   Berita
                 </Link>
               </li>
-              <li>
+                            <li>
                 <Link
                   href="/kontak"
                   className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
@@ -68,7 +92,8 @@ export default function Footer() {
           <div className="text-center text-sm text-gray-400">
             <p className="mb-2">© {new Date().getFullYear()} Pemerintah Desa Gombong Ciawi. Hak Cipta Dilindungi.</p>
             <p className="text-xs text-gray-500">
-              Website resmi: <a href="https://desagomboongciawi.com" className="hover:text-[#437118] transition-colors">https://desagomboongciawi.com</a>
+              Website resmi: <a href="https://desagomboongciawi.com" className="hover:text-[#437118] transition-colors">
+              KKN 13 Desa Gombong 2025/2026</a>
             </p>
           </div>
         </div>

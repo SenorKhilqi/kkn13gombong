@@ -23,6 +23,7 @@ export default function Navbar({ user }: NavbarProps) {
     { href: '/fasilitas/sekolah', label: 'Sekolah' },
     { href: '/punduh', label: 'Punduh' },
     { href: '/news', label: 'Berita' },
+    { href: '/kkn', label: 'KKN' },
     { href: '/kontak', label: 'Kontak' },
   ];
 
