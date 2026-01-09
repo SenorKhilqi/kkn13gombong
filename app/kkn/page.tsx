@@ -581,20 +581,6 @@ export default function KKNPage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h3 className="text-xl font-bold mb-2">KKN 13 Desa Gombong</h3>
-            <p className="text-gray-400 mb-4">
-              Pemberdayaan Masyarakat di Bidang UMKM<br />
-              Desa Gombong, Kecamatan Ciawi, Kabupaten Tasikmalaya
-            </p>
-            <p className="text-gray-500 text-sm">&copy; 2025 KKN 13 Desa Gombong. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
