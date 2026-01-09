@@ -21,6 +21,7 @@ export default function EditNewsPage({ params }: PageProps) {
     title: '',
     content: '',
     image_url: '',
+    published_date: new Date().toISOString().split('T')[0],
   });
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [imagePreview, setImagePreview] = useState<string>('');
@@ -42,6 +43,7 @@ export default function EditNewsPage({ params }: PageProps) {
           title: news.title,
           content: news.content,
           image_url: news.image_url || '',
+          published_date: news.published_date ? new Date(news.published_date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
         });
         if (news.image_url) {
           setImagePreview(news.image_url);
@@ -91,6 +93,7 @@ export default function EditNewsPage({ params }: PageProps) {
     submitFormData.append('title', formData.title);
     submitFormData.append('content', formData.content);
     submitFormData.append('image_url', formData.image_url);
+    submitFormData.append('published_date', formData.published_date);
     submitFormData.append('old_image_url', formData.image_url); // For deletion
     
     if (imageFile) {
@@ -172,6 +175,25 @@ export default function EditNewsPage({ params }: PageProps) {
                 }
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
                 placeholder="Masukkan judul berita"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="published_date"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
+                Tanggal Publikasi *
+              </label>
+              <input
+                id="published_date"
+                type="date"
+                required
+                value={formData.published_date}
+                onChange={(e) =>
+                  setFormData({ ...formData, published_date: e.target.value })
+                }
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#437118] focus:border-transparent outline-none transition"
               />
             </div>
 

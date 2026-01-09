@@ -40,6 +40,7 @@ export type Database = {
           slug: string
           content: string
           image_url: string | null
+          published_date: string | null
           created_at: string
           updated_at: string
           author_id: string | null
@@ -50,6 +51,7 @@ export type Database = {
           slug: string
           content: string
           image_url?: string | null
+          published_date?: string | null
           created_at?: string
           updated_at?: string
           author_id?: string | null
@@ -60,6 +62,7 @@ export type Database = {
           slug?: string
           content?: string
           image_url?: string | null
+          published_date?: string | null
           updated_at?: string
           author_id?: string | null
         }

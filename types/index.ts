@@ -11,6 +11,7 @@ export interface News {
   slug: string;
   content: string;
   image_url: string | null;
+  published_date?: string;
   created_at: string;
   updated_at: string;
   author_id: string | null;
@@ -29,4 +30,5 @@ export interface NewsFormData {
   title: string;
   content: string;
   image_url?: string;
+  published_date?: string;
 }

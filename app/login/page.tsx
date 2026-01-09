@@ -23,7 +23,12 @@ export default function LoginPage() {
       const result = await loginAction(formData.username, formData.password);
 
       if (result.success) {
-        router.push('/');
+        // Redirect admin ke dashboard, user biasa ke home
+        if (result.user?.role === 'admin') {
+          router.push('/dashboard/admin');
+        } else {
+          router.push('/');
+        }
         router.refresh();
       } else {
         setError(result.message);

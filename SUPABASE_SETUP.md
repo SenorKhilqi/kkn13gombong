@@ -93,4 +93,5 @@ CREATE POLICY "Authenticated users can delete news" ON news
   FOR DELETE USING (true);
 ```
 
-**Note:** Karena kita menggunakan autentikasi manual (bukan Supabase Auth), RLS bisa dinonaktifkan atau disesuaikan dengan kebutuhan.
+
+

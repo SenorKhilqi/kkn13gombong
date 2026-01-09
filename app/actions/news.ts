@@ -25,6 +25,7 @@ export async function createNewsWithImage(formData: FormData) {
 
     const title = formData.get('title') as string;
     const content = formData.get('content') as string;
+    const publishedDate = formData.get('published_date') as string;
     const imageFile = formData.get('image') as File | null;
     const imageUrl = formData.get('image_url') as string;
 
@@ -66,6 +67,7 @@ export async function createNewsWithImage(formData: FormData) {
       slug,
       content,
       image_url: finalImageUrl,
+      published_date: publishedDate || null,
       author_id: user.userId,
     });
 
@@ -95,6 +97,7 @@ export async function updateNewsWithImage(id: string, formData: FormData) {
 
     const title = formData.get('title') as string;
     const content = formData.get('content') as string;
+    const publishedDate = formData.get('published_date') as string;
     const imageFile = formData.get('image') as File | null;
     const imageUrl = formData.get('image_url') as string;
     const oldImageUrl = formData.get('old_image_url') as string;
@@ -145,6 +148,7 @@ export async function updateNewsWithImage(id: string, formData: FormData) {
         slug,
         content,
         image_url: finalImageUrl,
+        published_date: publishedDate || null,
         updated_at: new Date().toISOString(),
       })
       .eq('id', id);
