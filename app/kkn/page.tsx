@@ -105,9 +105,6 @@ export default function KKNPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Program Kerja</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Berbagai program pemberdayaan UMKM yang akan dilaksanakan di Desa Gombong
-            </p>
           </div>
 
           <div className="space-y-6">
@@ -305,6 +302,14 @@ export default function KKNPage() {
                 <h3 className="font-bold text-lg text-gray-900 mb-1">Muhamad Khilqi Alfadillah</h3>
                 <p className="text-sm text-gray-600 mb-2">Informatika / Fakultas Teknik</p>
                 <span className="inline-block px-3 py-1 bg-pink-600 text-white text-sm font-medium rounded-full">HUMAS</span>
+                <a 
+                  href="https://khilqialfa.my.id" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block mt-3 text-sm text-[#437118] hover:text-[#2d5010] font-medium hover:underline transition-colors"
+                >
+                  Lihat Selengkapnya →
+                </a>
               </div>
             </article>
 

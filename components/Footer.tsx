@@ -66,6 +66,14 @@ export default function Footer() {
                   Berita
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/kkn"
+                  className="text-sm text-gray-400 hover:text-[#437118] transition-colors"
+                >
+                  KKN UNSIL 2025
+                </Link>
+              </li>
                             <li>
                 <Link
                   href="/kontak"
@@ -90,10 +98,10 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="text-center text-sm text-gray-400">
-            <p className="mb-2">© {new Date().getFullYear()} Pemerintah Desa Gombong Ciawi. Hak Cipta Dilindungi.</p>
+            <p className="mb-2">© KKN UNSIL Desa Gombong Ciawi 2025/2026. Hak Cipta Dilindungi.</p>
             <p className="text-xs text-gray-500">
               Website resmi: <a href="https://desagomboongciawi.com" className="hover:text-[#437118] transition-colors">
-              KKN 13 Desa Gombong 2025/2026</a>
+              Infofrmasi Desa Gombong</a>
             </p>
           </div>
         </div>

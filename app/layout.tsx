@@ -8,7 +8,7 @@ import { getAuthUser } from "@/lib/auth";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sistem Informasi Desa Gombong Ciawi",
+  title: "Desa Gombong Ciawi | Sistem Informasi Desa Gombong Ciawi",
   description: "Website resmi Pemerintah Desa Gombong Ciawi - Portal informasi dan layanan digital untuk masyarakat Desa Gombong Ciawi, Kecamatan Ciawi, Kabupaten Tasikmalaya",
   keywords: ["Desa Gombong Ciawi", "Pemerintah Desa", "Tasikmalaya", "Ciawi", "Informasi Desa"],
   authors: [{ name: "Pemerintah Desa Gombong Ciawi" }],
