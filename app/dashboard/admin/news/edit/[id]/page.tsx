@@ -6,16 +6,15 @@ import { updateNewsWithImage } from '@/app/actions/news';
 import { supabase } from '@/lib/supabase';
 import { News } from '@/types';
 import Link from 'next/link';
-import { use } from 'react';
 
 interface PageProps {
-  params: Promise<{
+  params: {
     id: string;
-  }>;
+  };
 }
 
 export default function EditNewsPage({ params }: PageProps) {
-  const { id } = use(params);
+  const { id } = params;
   const router = useRouter();
   const [formData, setFormData] = useState({
     title: '',
