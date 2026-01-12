@@ -75,7 +75,7 @@ export default function SejarahPage() {
               <span className="text-blue-600">🎋</span> Asal Nama "Gombong"
             </h3>
             <p className="text-gray-700 leading-relaxed">
-              Perkataan <strong>"Gombong"</strong> menurut sejarah Desa setempat, berasal dari kondisi wilayah yang pada awalnya merupakan hutan bambu yang sangat luas dan tumbuh sangat lebat di daerah tersebut.s Kata <em>Gombong</em> artinya pohon bambu yang besar, begitu pula menurut pengakuan orang-orang Jawa. Sebelum datangnya Embah Jidun, Desa Gombong merupakan sebuah tegalan yang ditumbuhi rumpun-rumpun bambu dan diselingi beberapa selokan kecil.
+              Perkataan <strong>"Gombong"</strong> menurut sejarah Desa setempat, berasal dari kondisi wilayah yang pada awalnya merupakan hutan bambu yang sangat luas dan tumbuh sangat lebat di daerah tersebut. Kata <em>Gombong</em> artinya pohon bambu yang besar, begitu pula menurut pengakuan orang-orang Jawa. Sebelum datangnya Embah Jidun, Desa Gombong merupakan sebuah tegalan yang ditumbuhi rumpun-rumpun bambu dan diselingi beberapa selokan kecil.
             </p>
           </section>
 
