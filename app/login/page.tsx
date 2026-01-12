@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { loginAction } from '@/app/actions/auth';
 
 export default function LoginPage() {
@@ -46,7 +47,15 @@ export default function LoginPage() {
         <div className="bg-white rounded-2xl shadow-xl p-8">
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="w-16 h-16 bg-gradient-to-br from-[#437118] to-blue-500 rounded-xl mx-auto mb-4"></div>
+            <div className="mx-auto mb-4 w-24 h-24 relative">
+              <Image
+                src="/images/logo/logo.png"
+                alt="Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
               Selamat Datang
             </h2>
