@@ -60,6 +60,19 @@ export default function ProfilPage() {
               </div>
             </div>
 
+            {/* Peta Wilayah Desa */}
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-6 mb-6">
+              <h3 className="font-semibold text-lg text-gray-900 mb-4">Peta Wilayah Desa Gombong</h3>
+              <div className="rounded-lg overflow-hidden border border-gray-300">
+                <img 
+                  src="/images/peta/peta.png" 
+                  alt="Peta Wilayah Desa Gombong" 
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <p className="text-sm text-gray-500 mt-3 text-center">Peta Administratif Desa Gombong, Kecamatan Ciawi, Kabupaten Tasikmalaya</p>
+            </div>
+
             {/* Pembagian Wilayah */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-[#437118]/10 p-6 rounded-xl text-center border border-[#437118]/30">
