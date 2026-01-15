@@ -268,7 +268,7 @@ export default function KKNPage() {
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-lg text-gray-900 mb-1">Kaysa Hasnah Mumtaaza</h3>
-                <p className="text-sm text-gray-600 mb-2">Ekonomi Syariah / Fakultas Syariah</p>
+                <p className="text-sm text-gray-600 mb-2">Ekonomi Syariah / Fakultas Agama Islam</p>
                 <span className="inline-block px-3 py-1 bg-purple-600 text-white text-sm font-medium rounded-full">SEKRETARIS</span>
               </div>
             </article>
@@ -404,7 +404,7 @@ export default function KKNPage() {
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-lg text-gray-900 mb-1">Rubby Aziz Zaura Kamal</h3>
-                <p className="text-sm text-gray-600 mb-2">Ekonomi Syariah / Fakultas Syariah</p>
+                <p className="text-sm text-gray-600 mb-2">Ekonomi Syariah / Fakultas Agama Islam</p>
                 <span className="inline-block px-3 py-1 bg-orange-600 text-white text-sm font-medium rounded-full">ACARA</span>
               </div>
             </article>

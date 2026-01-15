@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: "Website resmi Pemerintah Desa Gombong Ciawi - Portal informasi dan layanan digital untuk masyarakat Desa Gombong Ciawi, Kecamatan Ciawi, Kabupaten Tasikmalaya",
   keywords: ["Desa Gombong Ciawi", "Pemerintah Desa", "Tasikmalaya", "Ciawi", "Informasi Desa"],
   authors: [{ name: "Pemerintah Desa Gombong Ciawi" }],
+  icons: {
+    icon: "/images/logo/favicon.png",
+  },
   verification: {
     google: "Z8Uxpl3-Q73oxJ3TqkPSTiWv2Lur5r6P6KOS7n4U9QY",
   },
