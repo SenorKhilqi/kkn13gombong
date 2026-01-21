@@ -70,7 +70,7 @@ export default function NewsTable({ news }: NewsTableProps) {
                 {item.author?.username || '-'}
               </td>
               <td className="py-3 px-4 text-gray-600">
-                {format(new Date(item.created_at), 'dd MMM yyyy', { locale: id })}
+                {format(new Date(item.published_date || item.created_at), 'dd MMM yyyy', { locale: id })}
               </td>
               <td className="py-3 px-4">
                 <div className="flex items-center justify-end gap-2">

@@ -8,7 +8,7 @@ interface NewsCardProps {
 }
 
 export default function NewsCard({ news }: NewsCardProps) {
-  const timeAgo = formatDistanceToNow(new Date(news.created_at), {
+  const timeAgo = formatDistanceToNow(new Date(news.published_date || news.created_at), {
     addSuffix: true,
     locale: id,
   });

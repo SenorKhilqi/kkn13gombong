@@ -29,7 +29,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
 
   const news = newsData as News;
 
-  const formattedDate = format(new Date(news.created_at), 'dd MMMM yyyy', {
+  const formattedDate = format(new Date(news.published_date || news.created_at), 'dd MMMM yyyy', {
     locale: id,
   });
 
@@ -63,7 +63,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
             {news.title}
           </h1>
           <div className="flex items-center gap-4 text-sm text-gray-600">
-            <time dateTime={news.created_at}>{formattedDate}</time>
+            <time dateTime={news.published_date || news.created_at}>{formattedDate}</time>
             {news.author && (
               <>
                 <span>•</span>
