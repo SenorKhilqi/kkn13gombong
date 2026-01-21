@@ -90,7 +90,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold text-lg mb-4">Kontak</h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>📍 Desa Gombong Ciawi, Kecamatan Ciawi, Kabupaten Tasikmalaya</li>
-              <li>📞 (021) 1234-5678</li>
+              <li>📞 </li>
               <li>✉️ desagombong2018@gmail.com</li>
             </ul>
           </div>
