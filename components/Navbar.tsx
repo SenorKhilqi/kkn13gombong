@@ -20,10 +20,7 @@ export default function Navbar({ user }: NavbarProps) {
     { href: '/', label: 'Beranda' },
     { href: '/profil', label: 'Profil Desa' },
     { href: '/sejarah', label: 'Sejarah' },
-    { href: '/fasilitas/sekolah', label: 'Sekolah' },
-    { href: '/punduh', label: 'Punduh' },
     { href: '/news', label: 'Berita' },
-    { href: '/kkn', label: 'KKN' },
     { href: '/kontak', label: 'Kontak' },
   ];
 
@@ -36,18 +33,9 @@ export default function Navbar({ user }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 flex items-center justify-center">
-              <img 
-                src="/images/logo/logo.png" 
-                alt="Logo Desa Gombong Ciawi" 
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-base leading-tight text-gray-900">Desa Gombong Ciawi</span>
-              <span className="text-xs text-gray-600">Ciawi, Tasikmalaya</span>
-            </div>
+          <Link href="/" className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-blue-500 rounded-lg"></div>
+            <span className="font-bold text-xl text-gray-900">Desa Gombong</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -56,9 +44,9 @@ export default function Navbar({ user }: NavbarProps) {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-[#437118] ${
+                className={`text-sm font-medium transition-colors hover:text-green-600 ${
                   pathname === link.href
-                    ? 'text-[#437118]'
+                    ? 'text-green-600'
                     : 'text-gray-700'
                 }`}
               >
@@ -71,11 +59,7 @@ export default function Navbar({ user }: NavbarProps) {
                 {user.role === 'admin' && (
                   <Link
                     href="/dashboard/admin"
-                    className={`text-sm font-medium transition-colors hover:text-[#437118] ${
-                      pathname.startsWith('/dashboard')
-                        ? 'text-[#437118]'
-                        : 'text-gray-700'
-                    }`}
+                    className="text-sm font-medium text-gray-700 hover:text-green-600 transition-colors"
                   >
                     Dashboard
                   </Link>
@@ -95,7 +79,7 @@ export default function Navbar({ user }: NavbarProps) {
             ) : (
               <Link
                 href="/login"
-                className="px-4 py-2 text-sm font-medium text-white bg-[#437118] rounded-lg hover:bg-[#375e14] transition-colors"
+                className="px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 transition-colors"
               >
                 Login
               </Link>
@@ -143,7 +127,7 @@ export default function Navbar({ user }: NavbarProps) {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     pathname === link.href
-                      ? 'bg-[#437118]/10 text-[#437118]'
+                      ? 'bg-green-50 text-green-600'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`}
                 >
@@ -157,11 +141,7 @@ export default function Navbar({ user }: NavbarProps) {
                     <Link
                       href="/dashboard/admin"
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                        pathname.startsWith('/dashboard')
-                          ? 'bg-[#437118]/10 text-[#437118]'
-                          : 'text-gray-700 hover:bg-gray-50'
-                      }`}
+                      className="px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
                     >
                       Dashboard
                     </Link>
@@ -180,7 +160,7 @@ export default function Navbar({ user }: NavbarProps) {
                 <Link
                   href="/login"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="mx-4 px-4 py-2 text-sm font-medium text-center text-white bg-[#437118] rounded-lg hover:bg-[#375e14] transition-colors"
+                  className="mx-4 px-4 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-700 transition-colors"
                 >
                   Login
                 </Link>

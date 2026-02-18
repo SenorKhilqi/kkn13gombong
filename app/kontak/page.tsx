@@ -157,13 +157,15 @@ export default function KontakPage() {
             </div>
           </div>
 
-          {/* Contact Form */}
+          {/* FORM PENGADUAN - DISEMBUNYIKAN SEMENTARA */}
+          {/* Uncomment bagian ini untuk menampilkan form pengaduan kembali */}
+          {/*
           <div>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">
               Kirim Pengaduan
             </h2>
 
-            {/* Success/Error Message */}
+            
             {message && (
               <div
                 className={`mb-6 p-4 rounded-lg ${
@@ -238,6 +240,7 @@ export default function KontakPage() {
               </button>
             </form>
           </div>
+          */}
         </div>
 
         {/* Google Maps */}
