@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
@@ -33,9 +34,16 @@ export default function Navbar({ user }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-blue-500 rounded-lg"></div>
-            <span className="font-bold text-xl text-gray-900">Desa Gombong</span>
+          <Link href="/" className="flex items-center gap-2.5">
+            <Image
+              src="/images/logo/logo.png"
+              alt="Logo Desa Gombong"
+              width={36}
+              height={36}
+              className="h-9 w-9 rounded-md object-contain"
+              priority
+            />
+            <span className="font-bold text-lg sm:text-xl text-gray-900">Desa Gombong</span>
           </Link>
 
           {/* Desktop Navigation */}
